@@ -7,6 +7,7 @@ export class ProductController {
 
   @Get()
   getProducts() {
+    
     return this.ProductService.getAllProducts();
   }
 
