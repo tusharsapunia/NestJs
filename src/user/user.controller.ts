@@ -4,6 +4,6 @@ import { Controller, Get } from '@nestjs/common';
 export class UserController {
     @Get()
     getuser(){
-        return `<h1> Hello From user controller..!!!</h1>`
+        return `<h1> Hello From user controller...!!!</h1>`
     }
 }
